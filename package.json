@@ -4,10 +4,15 @@
   "private": true,
   "homepage": "https://pdftron.github.io/webviewer-react-sample",
   "dependencies": {
+    "@pdftron/webviewer": "^8.0.0",
+    "@reduxjs/toolkit": "^1.7.2",
+    "axios": "^0.26.0",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.2.1",
     "react-scripts": "2.1.1",
-    "@pdftron/webviewer": "^8.0.0"
+    "redux-thunk": "^2.4.1"
   },
   "devDependencies": {
     "btoa": "^1.2.1",

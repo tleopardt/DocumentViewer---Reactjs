@@ -1,5 +1,5 @@
 import React, { useRef, useEffect, useState, Fragment } from 'react'
-import App from './App'
+import MainPage from './mainPage'
 
 export default function View() {
   const [file, setFile] = useState([
@@ -14,7 +14,7 @@ export default function View() {
       {
         file.map((v, index) => (
             <Fragment key={index}>
-            <App file={v} />
+            <MainPage file={v} />
             &emsp;
             </Fragment>
         ))
